@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebContent/index.jsp=UTF-8
+encoding//WebContent/report.jsp=UTF-8
+encoding//src/com/report/dao/DAO.java=UTF-8
+encoding//src/com/report/dao/UserDAO.java=UTF-8
+encoding//src/com/report/dao/impl/UserDAOJdbcimpl.java=UTF-8
+encoding//src/com/report/db/JdbcUtils.java=UTF-8
+encoding//src/com/report/server/register.java=UTF-8
+encoding//src/com/report/test/UserDAOJdbcimplTest.java=UTF-8
+encoding//src/com/zorage/chat/ChatForm.java=UTF-8

@@ -1,0 +1,432 @@
+* {
+  word-break: break-all;
+}
+body,
+html {
+  margin: 0;
+  height: 100%;
+  background: #F8F8F8;
+}
+ul,
+li,
+body,
+html,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "sans-serif", "΢���ź�", "����";
+  font-size: 12px;
+}
+.container-fluid {
+  opacity: 0;
+}
+.hide {
+  display: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.tc {
+  text-align: center;
+}
+.dib {
+  display: inline-block;
+}
+.phcolor {
+  color: #999;
+}
+.margin20 {
+  margin: 20px 0;
+}
+.DataNewHref {
+  cursor: pointer;
+}
+.help-block {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: red;
+  clear: both;
+}
+.loginContain {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  min-height: 480px;
+  position: relative;
+}
+.register.loginContain {
+  padding-bottom: 0px;
+}
+.download {
+  padding: 10px;
+  background: #0099FF;
+  color: #fff;
+  width: 80px;
+}
+.tenantSite {
+  color: blue;
+  position: relative;
+  cursor: pointer;
+}
+.login {
+  height: 480px;
+  width: 400px;
+  margin: 0 auto;
+}
+.login .login-head {
+  width: 400px;
+  text-align: center;
+  font-size: 36px;
+  color: #54698D;
+}
+.login .login-head .mylogo {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+.login .login-head .reportWight {
+  font-weight: 700;
+}
+.login .login-head .excelReport {
+  display: inline-block;
+  font-size: 30px;
+}
+.login .login-head .excelReport img {
+  vertical-align: middle;
+}
+.login .loginhead {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.login .loginhead .line {
+  height: 1px;
+  background: #E0E0E0;
+  width: 110px;
+}
+.login .loginhead .loginHeadText {
+  color: #666;
+  margin: 0 14px;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.login .loginhead a {
+  color: #8D8D8D!important;
+  width: 50%;
+  display: block;
+  float: left;
+}
+.login .loginhead a.text {
+  width: 160px;
+  height: 14px;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  border-bottom: 1px solid #dad9d9;
+  /*margin-left:40px; */
+}
+.login .loginhead a.select {
+  color: #2da7fc !important;
+  border-bottom: 1px solid #2da7fc !important;
+}
+.login .loginForm {
+  margin-top: 10px;
+  width: 400px;
+  padding: 30px 40px 15px 40px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 12px #dfdfdf;
+  font-family: inherit;
+}
+.login .loginForm .checkbox {
+  padding: 10px 0;
+}
+.login .loginForm .loginBtn,
+.login .loginForm .regBtn,
+.login .loginForm .btnBig,
+.login .loginForm .btnDefault,
+.login .loginForm .userRegBtn,
+.login .loginForm .forgetBtn {
+  width: 100%;
+  background: #008ed2;
+  color: #fff;
+  height: 41px;
+  line-height: 20px;
+}
+.login .loginForm .btn {
+  border-radius: 2px;
+}
+.login .loginForm .btnBig {
+  background: #33CC66;
+}
+.login .loginForm .btnDefault {
+  background: #efefef;
+  color: #333;
+}
+.login .loginForm .tryMe {
+  margin-top: 10px;
+}
+.login .loginForm .tryMe span {
+  color: #666;
+}
+.login .loginForm .helpPwdParent {
+  height: 16px;
+  margin: 0px !important;
+}
+.login .loginForm .verifyCode .verifyCodeInput {
+  width: 160px;
+  display: inline-block !important;
+}
+.login .loginForm .verifyCode .verifyCodeImgParent {
+  position: absolute;
+  width: 102px;
+  height: 40px;
+  left: 170px;
+  top: 0;
+  border: 1px solid #ccc;
+}
+.login .loginForm .verifyCode .verifyCodeImgParent img {
+  width: 100px;
+  height: 38px;
+}
+.login .loginForm .verifyCode .change-verifyCode {
+  position: absolute;
+  right: 0;
+  height: 14px;
+  line-height: 14px;
+  top: 13px;
+  color: #666;
+}
+.login .loginForm .registerBtn {
+  /* width: 100%;
+      height: 41px;
+      line-height: 25px;
+      border: 1px solid #E0E0E0;
+      background: #fff;
+      margin-top: 20px;*/
+  display: inline-block;
+  font-size: 12px;
+  padding: 0px;
+  margin-top: -4px;
+  width: inherit;
+  height: inherit;
+}
+.login .checkbox {
+  line-height: 19px;
+}
+.login #usernameShow,
+.login #pwd,
+.login .form-group input {
+  margin-bottom: 15px;
+}
+.login .login-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+.login .freeTry {
+  height: 40px;
+  border: 1px solid #D8DDE6;
+  background: #fff;
+  border-radius: 5px;
+  margin-left: 25px;
+  color: #337ab7;
+}
+.form-control {
+  border-radius: 0px;
+  height: 40px;
+  box-shadow: none;
+  border: 1px solid #dad9d9;
+  font-size: 14px;
+  margin-bottom: 0px !important;
+  color: #666;
+}
+.form-group {
+  margin-bottom: 18px;
+  height: 40px;
+}
+.form-group1 {
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+.row .col-sm-6 {
+  padding: 0;
+}
+.portImg {
+  background: url("../images/u2.jpg") no-repeat left 0;
+  background-size: cover;
+  min-height: 480px;
+  position: relative;
+}
+.portImg .downloadNow {
+  background: #0768BE;
+  color: #fff;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  top: 290px;
+  left: 70px;
+}
+#myEye {
+  pointer-events: auto;
+  cursor: pointer;
+  color: #63707b;
+}
+.modal-sm {
+  margin-top: 250px;
+}
+.showMsg {
+  color: #e12f45;
+  text-align: left;
+  font-size: 14px;
+}
+@media screen and (max-width: 1398px) {
+  .portImg .downloadNow {
+    top: 260px;
+    left: 55px;
+  }
+}
+.loginUrl {
+  overflow: hidden;
+}
+.copyright {
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  color: #999;
+  font-weight: 500;
+  margin: 0 auto;
+  width: 100%;
+}
+#myModal .modal-dialog {
+  border: 1px solid #006bd8;
+}
+#myModal .modal-content {
+  border: 0;
+  border-radius: 0;
+}
+#myModal .btn {
+  width: 55px;
+  height: 30px;
+  font-size: 12px;
+}
+.register .login {
+  height: auto;
+}
+.register .login .loginForm {
+  height: auto;
+}
+.register .pwd-tip {
+  height: 14px;
+  font-size: 12px;
+  color: #c5c5c5;
+}
+.register .pwd-tip .i-pwd-tip {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+  margin-right: 8px;
+  background: url(../images/icons/pwd_level.png) no-repeat;
+  background-position: 0px 0px;
+}
+.register .pwd-tip .i-pwd-err {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+  margin-right: 8px;
+  background: url(../images/icons/pwd_level.png) no-repeat;
+  background-position: -17px 0px;
+}
+.register .pwd-tip .i-pwd-weak {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+  margin-right: 8px;
+  background: url(../images/icons/pwd_level.png) no-repeat;
+  background-position: -17px -34px;
+}
+.register .pwd-tip .i-pwd-medium {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+  margin-right: 8px;
+  background: url(../images/icons/pwd_level.png) no-repeat;
+  background-position: -34px -17px;
+}
+.register .pwd-tip .i-pwd-strong {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+  margin-right: 8px;
+  background: url(../images/icons/pwd_level.png) no-repeat;
+  background-position: -34px -34px;
+}
+.register .pwd-tip-err {
+  color: #ff0000;
+}
+.register #code,
+.register #url,
+.register .hasHelp {
+  width: 70%;
+  display: inline-block;
+  float: left;
+  border-radius: 0 0 0 0;
+}
+.register .helpBtn {
+  display: inline-block;
+  width: 30%;
+  border: 1px solid #ddd;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #F8F8F8;
+  border-left: none;
+  font-size: 12px;
+}
+.register .domain {
+  width: 100%;
+  border: 1px solid #ddd;
+  text-align: left;
+  padding-left: 13px;
+  color: #999;
+}
+.register .codeBtn {
+  cursor: pointer;
+}
+.register .grayColor {
+  opacity: 0.5;
+  color: #999;
+  pointer-events: none;
+  cursor: default;
+}
+.s_option {
+  vertical-align: middle !important;
+  margin: -4px 2px 0px 2px !important;
+}
